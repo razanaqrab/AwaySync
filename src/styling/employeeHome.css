@@ -1,0 +1,151 @@
+.employee-home-container {
+  padding: 20px;
+}
+
+.upper-part {
+  margin-bottom: 30px;
+  
+}
+
+.upper-div {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.left-section h2 {
+  margin: 0;
+}
+
+.right-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sort-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-color:#dcd8d8;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
+
+.search-bar input {
+  padding: 7px;
+  border: 1px solid #dcd8d8; 
+  border-radius: 15px;
+}
+
+.clear-search {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.leave-requests-table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: separate; /* Use separate for rounded borders */
+  border-spacing: 0; /* Remove spacing between cells */
+  border-radius: 15px; /* Round the outer borders */
+  overflow: hidden; /* Ensure the corners of child elements don't overflow */
+  border: 1px solid #ccc; /* Outer border */
+}
+
+.leave-requests-table th,
+.leave-requests-table td {
+  border: 1px solid #ddd; /* Cell borders */
+  padding: 20px 1px;
+  text-align: center;
+}
+
+.leave-requests-table thead tr:first-child th {
+  border-top: none; /* Avoid double borders at the top */
+}
+
+.leave-requests-table tbody tr:last-child td {
+  border-bottom: none; /* Avoid double borders at the bottom */
+}
+
+.leave-requests-table tbody tr:hover {
+  background-color: #e5e3e3;
+  cursor: pointer;
+}
+
+.cancel-button {
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.cancel-button img{
+  width: 30px;
+  height: 30px;
+}
+
+.lower-part {
+  width: 70%;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.cards-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.buttons-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically */
+  margin-top: 60px; /* Adjust margin for spacing */
+}
+
+.leave-policies-button,
+.new-leave-request-button {
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 15px; /* Rounded borders */
+  font-size: 1em;
+ 
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.leave-policies-button {
+  background-color: #d3d3d3; /* Gray (same color as cards) */
+  border: none;
+  color: #000;
+}
+
+.new-leave-request-button {
+  background-color: transparent; /* Transparent background */
+  border: 2px solid orange; /* Orange border */
+  color: orange;
+}
+
+.new-leave-request-button:hover {
+  background-color: orange; /* Fill with orange on hover */
+  color: #fff; /* Change text color to white */
+}
+
+.leave-policies-button:hover {
+  background-color: #bfbfbf; /* Slightly darker gray on hover */
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.leavepolicy {
+  width: 60%;
+  margin: 50px auto; /* Reduced the margin to match the Leave Request Form */
+  padding: 15px; /* Reduced padding for a compact layout */
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.leave-title {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px; /* Reduced spacing below the title */
+}
+
+.leave-container div {
+  padding: 10px; /* Reduced padding inside the containers */
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.leave-policy-container {
+  text-align: left;
+  padding: 15px; /* Reduced padding inside the container */
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}

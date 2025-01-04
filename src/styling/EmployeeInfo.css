@@ -1,0 +1,71 @@
+.employee-info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+    background-color: #ffffff;
+   
+    height: 100vh; /* Full-page height */
+    max-width: 800px; /* Increased container size */
+  width: 100%;
+  margin: 50px auto;
+  text-align: left;
+  }
+  
+  .employee-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .employee-details {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: left;
+  }
+  
+  .info-field {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px; /* Increased spacing between fields */
+  font-size: 1rem;
+  width: 100%;
+  }
+  
+  .info-field label {
+    font-weight: bold;
+    color: #555;
+    text-align: left
+  }
+  
+  .info-field span {
+    color: #333;
+    align-items: flex-start;
+    text-align: right ;
+
+  }
+  .modify-button {
+    background-color: orange; /* Orange background for button */
+    color: white;
+    border: none;
+    padding: 12px 30px; /* Larger padding for a bigger button */
+    border-radius: 8px;
+    font-size: 1.1rem; /* Larger font size for button text */
+    cursor: pointer;
+    margin-top: 20px; /* Space between button and container */
+    align-self: center; /* Center the button horizontally */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .modify-button:hover {
+    background-color: white; /* White background on hover */
+    color: orange; /* Orange text on hover */
+    border: 1px solid orange; /* Border on hover */
+  }
+  

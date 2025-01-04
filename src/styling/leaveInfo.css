@@ -1,0 +1,79 @@
+.leaveInfo {
+    width: 60%;
+    margin:  100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.leave-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.leave-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leave-container div {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.reason-field {
+    font-style: italic;
+    color: #444;
+}
+
+.files-field {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.saving-control {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.saving-control button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.saving-control button:first-child {
+    background-color: gray;
+    color: #fff;
+}
+
+.saving-control button:first-child:hover {
+    background-color: darkgray;
+}
+
+.saving-control button:last-child {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid orange; /* Orange border */
+    color: orange;
+}
+
+.saving-control button:last-child:hover {
+    background-color: darkorange;
+}
+
+  
+ 

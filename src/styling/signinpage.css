@@ -1,0 +1,108 @@
+.signin-container {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.0);
+  border-right: 1px solid #ffffff; /* Transparent line between panels */
+}
+
+.logo-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ed7708;
+  margin-top: 10px;
+}
+
+.left-panel p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #555;
+}
+
+.right-panel {
+  flex: 1;
+  background: linear-gradient(to bottom, #f2e7dd, #df8735);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-left: 1px solid #ffffff; 
+  border-top-left-radius: 30px; /* Rounded corners on the top-right */
+  border-bottom-left-radius: 30px; /* Rounded corners on the bottom-right */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signin-form {
+  width: 80%;
+  margin: 60px auto;
+  background-color: transparent;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 30px; /* Space between form groups */
+  width: 80%; /* Ensure all inputs take full form width */
+}
+
+select,
+input {
+  width: 100%; /* Make input and select fields the same width */
+  font-size: 1rem;
+  padding: 10px; /* Adjust padding for uniform size */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.forgot-password {
+  margin-top: 3px;
+  font-size: 0.9rem;
+  color: #14599e;
+  text-align: center;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.signin-button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 7px 9px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff;
+  cursor: pointer;
+  width: 25%;
+  padding: 10px 20px; /* Adjust padding to match standard button size */
+}
+
+.signin-button:hover {
+  background-color: #111;
+}
+
+
